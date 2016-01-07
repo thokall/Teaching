@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {english}
+\beamer@sectionintoc {1}{The transcriptome}{3}{0}{1}
+\beamer@sectionintoc {2}{RNA sequence technologies}{6}{0}{2}
+\beamer@sectionintoc {3}{RNA-seq analysis}{17}{0}{3}
+\beamer@subsectionintoc {3}{1}{Mapping based approach}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Gene expression from RNA-seq}{27}{0}{3}
+\beamer@subsectionintoc {3}{3}{de-novo assembly}{34}{0}{3}
