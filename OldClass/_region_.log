@@ -1,0 +1,1161 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=prv_RNA-seq_intro 2016.3.21)  21 MAR 2016 19:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**&prv_RNA-seq_intro _region_.tex
+(./_region_.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+  beamer.cls    2013/12/02 3.33 A class for typesetting presentations (rcs-revi
+sion 332bfd3ce558)
+beamerbasercs.sty    2013/12/25 (rcs-revision 31cc758a62ae)
+beamerbasemodes.sty    2013/09/03 (rcs-revision 768f2d98ca64)
+beamerbasedecode.sty    2010/05/01 (rcs-revision efa082c6111d)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+beamerbaseoptions.sty    2013/03/10 (rcs-revision 47431932db0d)
+  keyval.sty    2014/05/08 v1.15 key=value parser (DPC)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+  size11.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+ pgfcore.sty    2010/04/11 v3.0.0 (rcs-revision 1.7)
+graphicx.sty    2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+  pgfsys.sty    2013/11/30 v3.0.0 (rcs-revision 1.47)
+  pgfrcs.sty    2013/12/20 v3.0.0 (rcs-revision 1.28)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+ pgfcore.code.tex
+ xxcolor.sty    2003/10/24 ver 0.1
+atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
+hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
+hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2012/05/28 v1.13 Construct package bundles (HO)
+ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+ intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
+etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
+kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
+pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
+  bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
+uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
+letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2012/05/28 v1.2 Wrapper for package hooks (HO)
+xcolor-patch.sty    2011/01/30 xcolor patch
+atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
+refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
+ hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2011/03/04 v1.3 Hooks for auxiliary files (HO)
+kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
+  pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
+rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+beamerbaserequires.sty    2010/05/01  (rcs-revision efa082c6111d)
+beamerbasecompatibility.sty    2012/05/01  (rcs-revision 67c48b3b652d)
+beamerbasefont.sty    2013/10/18  (rcs-revision 72f39e01808a)
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+sansmathaccent.sty    2013/03/28
+filehook.sty    2011/10/12 v0.5d Hooks for input files
+beamerbasetranslator.sty    2010/06/11  (rcs-revision 85fd1cc7fc42)
+translator.sty    2010/06/12 ver 1.10
+translator-language-mappings.tex
+beamerbasemisc.sty    2013/09/03  (rcs-revision a55719c41d85)
+beamerbasetwoscreens.sty    2010/05/01  (rcs-revision efa082c6111d)
+beamerbaseoverlay.sty    2013/12/25  (rcs-revision f6bd5e3805da)
+beamerbasetitle.sty    2010/09/21  (rcs-revision f0446ed0b6ae)
+beamerbasesection.sty    2013/06/07  (rcs-revision 60b9fe0f342f)
+beamerbaseframe.sty    2013/10/02  (rcs-revision cdc8e9a3aaac)
+beamerbaseverbatim.sty    2012/08/30  (rcs-revision dfdb135076b3)
+beamerbaseframesize.sty    2011/09/12  (rcs-revision 70f9d8411e54)
+beamerbaseframecomponents.sty    2013/10/18  (rcs-revision 5cf6c5555a45)
+beamerbasecolor.sty    2010/06/06  (rcs-revision d1a9b48be06d)
+beamerbasenotes.sty    2012/12/19  (rcs-revision 1686da3db3c9)
+beamerbasetoc.sty    2013/05/23  (rcs-revision 0fdf5bc43be8)
+beamerbasetemplates.sty    2010/05/01  (rcs-revision efa082c6111d)
+beamerbaseauxtemplates.sty    2013/09/04  (rcs-revision 4ac715c499d0)
+beamerbaseboxes.sty    2012/05/13  (rcs-revision 56972908a390)
+beamerbaselocalstructure.sty    2013/09/04  (rcs-revision 4ac715c499d0)
+enumerate.sty    1999/03/05 v3.00 enumerate extensions (DPC)
+beamerbasenavigation.sty    2013/10/05  (rcs-revision 62be157fe783)
+beamerbasetheorems.sty    2010/06/06  (rcs-revision 7e7cc5e53e9d)
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+  amsthm.sty    2004/08/06 v2.20
+beamerbasethemes.sty    2010/05/01  (rcs-revision efa082c6111d)
+beamerthemedefault.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
+beamerfontthemedefault.sty    2012/12/19  (rcs-revision 1686da3db3c9)
+beamercolorthemedefault.sty    2012/12/19  (rcs-revision 1686da3db3c9)
+beamerinnerthemedefault.sty    2013/10/15  (rcs-revision 65cb471f9634)
+beamerouterthemedefault.sty    2012/12/19  (rcs-revision 1686da3db3c9)
+beamerthemeCambridgeUS.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
+beamerinnerthemerounded.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
+beamerouterthemeinfolines.sty    2012/10/16  (rcs-revision 51a8c72084af)
+beamercolorthemebeaver.sty    2010/06/17  (rcs-revision d02a7cf4d8ae)
+beamercolorthemeseagull.sty    2012/02/23  (rcs-revision 406bcaf3a3c7)
+   babel.sty    2014/03/24 3.9k The Babel package
+ english.ldf    2012/08/20 v3.3p English support from the babel system
+   times.sty    2005/04/12 PSNFSS-v9.2a (SPQR) 
+ fontenc.sty
+   t1enc.def    2005/09/27 v1.99g Standard LaTeX file
+inputenc.sty    2014/04/30 v1.2b Input encoding file
+applemac.def    2014/04/30 v1.2b Input encoding file
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+   t1phv.fd    2001/06/04 scalable font definitions for T1/phv.
+   t1pcr.fd    2001/06/04 font definitions for T1/pcr.
+        .
+No file _region_.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+(/Users/thkal021/.emacs.d/elpa/auctex-11.89.1/latex/preview.sty
+Package: preview 2010/02/14 11.89 (AUCTeX/preview-latex)
+
+(/Users/thkal021/.emacs.d/elpa/auctex-11.89.1/latex/prtightpage.def
+\PreviewBorder=\dimen189
+)
+(/Users/thkal021/.emacs.d/elpa/auctex-11.89.1/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count154
+\hfuzz=\dimen190
+(/Users/thkal021/.emacs.d/elpa/auctex-11.89.1/latex/prauctex.cfg))
+(/Users/thkal021/.emacs.d/elpa/auctex-11.89.1/latex/prfootnotes.def)
+\pr@snippet=\count155
+\pr@box=\box53
+\pr@output=\toks45
+
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=342.2953pt
+* \textheight=244.6939pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count156
+\scratchdimen=\dimen191
+\scratchbox=\box54
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen192
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 42.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count162
+)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 42.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/ptm/m/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/phv/bx/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 42.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 42.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/ptm/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/phv/bx/n --> T1/phv/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/phv/m/n --> T1/phv/bx/n on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/phv/m/it --> T1/phv/bx/it on input line 42.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/pcr/m/n --> T1/pcr/bx/n on input line 42.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-environment-dictionary/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-months-dictionary/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-numbers-dictionary/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/dicts/translato
+r-theorem-dictionary/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \includegraphics on input line 42.
+
+ !name(RNA-seq_intro.tex) !offset(-3)  [1
+
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./Images/BILS-logo.pdf>]
+No file _region_.toc.
+[2
+
+
+
+]
+! Preview: Snippet 1 started.
+<-><->
+      
+l.62 \end{frame}
+                
+Not a real error.
+
+<Images/Dogma.pdf, id=45, 1020.48177pt x 682.74457pt>
+File: Images/Dogma.pdf Graphic file (type pdf)
+ <use Images/Dogma.pdf>
+Package pdftex.def Info: Images/Dogma.pdf used on input line 62.
+(pdftex.def)             Requested size: 284.52756pt x 190.35458pt.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(12475078+0x18646798).
+<-><->
+      
+l.62 \end{frame}
+                
+Not a real error.
+
+[1 <./Images/Dogma.pdf>] [3
+
+
+
+
+
+
+
+]
+! Preview: Snippet 2 started.
+<-><->
+      
+l.69 \end{frame}
+                
+Not a real error.
+
+<Images/TranscriptomeComplex.pdf, id=194, 953.5625pt x 382.0131pt>
+File: Images/TranscriptomeComplex.pdf Graphic file (type pdf)
+
+<use Images/TranscriptomeComplex.pdf>
+Package pdftex.def Info: Images/TranscriptomeComplex.pdf used on input line 69.
+
+(pdftex.def)             Requested size: 341.43306pt x 136.78432pt.
+
+! Preview: Snippet 2 ended.(8964297+0x22376157).
+<-><->
+      
+l.69 \end{frame}
+                
+Not a real error.
+
+[2 <./Images/TranscriptomeComplex.pdf>] [4
+
+
+
+] [5
+
+
+
+]
+! Preview: Snippet 3 started.
+<-><->
+      
+l.95 \end{frame}
+                
+Not a real error.
+
+<Images/RNA-seq.pdf, id=233, 587.19376pt x 391.4625pt>
+File: Images/RNA-seq.pdf Graphic file (type pdf)
+
+<use Images/RNA-seq.pdf>
+Package pdftex.def Info: Images/RNA-seq.pdf used on input line 95.
+(pdftex.def)             Requested size: 284.52756pt x 189.68585pt.
+
+! Preview: Snippet 3 ended.(12431252+0x18646798).
+<-><->
+      
+l.95 \end{frame}
+                
+Not a real error.
+
+[3 <./Images/RNA-seq.pdf>] [6
+
+
+
+
+
+
+
+]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.101 \end{frame}
+                 
+Not a real error.
+
+<Images/fastqless.pdf, id=259, 722.7pt x 540.0175pt>
+File: Images/fastqless.pdf Graphic file (type pdf)
+
+<use Images/fastqless.pdf>
+Package pdftex.def Info: Images/fastqless.pdf used on input line 101.
+(pdftex.def)             Requested size: 284.52756pt x 212.60829pt.
+
+! Preview: Snippet 4 ended.(13933497+0x18646798).
+<-><->
+      
+l.101 \end{frame}
+                 
+Not a real error.
+
+[4 <./Images/fastqless.pdf>] [7
+
+
+
+]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.107 \end{frame}
+                 
+Not a real error.
+
+<Images/fastq36.jpg, id=284, 702.625pt x 336.25626pt>
+File: Images/fastq36.jpg Graphic file (type jpg)
+ <use Images/fastq36.jpg>
+Package pdftex.def Info: Images/fastq36.jpg used on input line 107.
+(pdftex.def)             Requested size: 284.52756pt x 136.16763pt.
+
+! Preview: Snippet 5 ended.(8923882+0x18646798).
+<-><->
+      
+l.107 \end{frame}
+                 
+Not a real error.
+
+[5 <./Images/fastq36.jpg>] [8
+
+
+
+]
+! Preview: Snippet 6 started.
+<-><->
+      
+l.120 \end{frame}
+                 
+Not a real error.
+
+<Images/fastq.pdf, id=295, 734.745pt x 382.42876pt>
+File: Images/fastq.pdf Graphic file (type pdf)
+ <use Images/fastq.pdf>
+Package pdftex.def Info: Images/fastq.pdf used on input line 120.
+(pdftex.def)             Requested size: 227.62204pt x 118.47581pt.
+
+! Preview: Snippet 6 ended.(7764431+0x14917438).
+<-><->
+      
+l.120 \end{frame}
+                 
+Not a real error.
+
+[6 <./Images/fastq.pdf>] [9
+
+
+
+]
+! Preview: Snippet 7 started.
+<-><->
+      
+l.126 \end{frame}
+                 
+Not a real error.
+
+<Images/PE1.pdf, id=316, 276.03125pt x 512.91624pt>
+File: Images/PE1.pdf Graphic file (type pdf)
+ <use Images/PE1.pdf>
+Package pdftex.def Info: Images/PE1.pdf used on input line 126.
+(pdftex.def)             Requested size: 113.81102pt x 211.48663pt.
+
+! Preview: Snippet 7 ended.(13859988+0x7458719).
+<-><->
+      
+l.126 \end{frame}
+                 
+Not a real error.
+
+[7 <./Images/PE1.pdf>] [10
+
+
+
+]
+! Preview: Snippet 8 started.
+<-><->
+      
+l.142 \end{frame}
+                 
+Not a real error.
+
+<Images/twofastq.pdf, id=340, 586.19pt x 207.77625pt>
+File: Images/twofastq.pdf Graphic file (type pdf)
+
+<use Images/twofastq.pdf>
+Package pdftex.def Info: Images/twofastq.pdf used on input line 142.
+(pdftex.def)             Requested size: 227.62204pt x 80.68048pt.
+
+! Preview: Snippet 8 ended.(5287476+0x14917438).
+<-><->
+      
+l.142 \end{frame}
+                 
+Not a real error.
+
+[8 <./Images/twofastq.pdf>] [11
+
+
+
+]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.148 \end{frame}
+                 
+Not a real error.
+
+<Images/PE2.pdf, id=368, 845.1575pt x 597.23125pt>
+File: Images/PE2.pdf Graphic file (type pdf)
+ <use Images/PE2.pdf>
+Package pdftex.def Info: Images/PE2.pdf used on input line 148.
+(pdftex.def)             Requested size: 341.43306pt x 241.27586pt.
+
+! Preview: Snippet 9 ended.(15812255+0x22376157).
+<-><->
+      
+l.148 \end{frame}
+                 
+Not a real error.
+
+[9 <./Images/PE2.pdf>] [12
+
+
+
+]
+! Preview: Snippet 10 started.
+<-><->
+      
+l.154 \end{frame}
+                 
+Not a real error.
+
+<Images/Stranded.png, id=390, 462.72874pt x 286.06876pt>
+File: Images/Stranded.png Graphic file (type png)
+
+<use Images/Stranded.png>
+Package pdftex.def Info: Images/Stranded.png used on input line 154.
+(pdftex.def)             Requested size: 284.52756pt x 175.90286pt.
+
+! Preview: Snippet 10 ended.(11527970+0x18646798).
+<-><->
+      
+l.154 \end{frame}
+                 
+Not a real error.
+
+[10 <./Images/Stranded.png>] [13
+
+
+
+]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.165 \end{frame}
+                 
+Not a real error.
+
+<Images/per_base_quality.png, id=402, 828.09375pt x 602.25pt>
+File: Images/per_base_quality.png Graphic file (type png)
+
+<use Images/per_base_quality.png>
+Package pdftex.def Info: Images/per_base_quality.png used on input line 165.
+(pdftex.def)             Requested size: 227.62204pt x 165.54114pt.
+
+! Preview: Snippet 11 ended.(10848904+0x14917438).
+<-><->
+      
+l.165 \end{frame}
+                 
+Not a real error.
+
+[11 <./Images/per_base_quality.png (PNG copy)>] [14
+
+
+
+]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.176 \end{frame}
+                 
+Not a real error.
+
+<Images/adapter_content.png, id=413, 803.0pt x 602.25pt>
+File: Images/adapter_content.png Graphic file (type png)
+
+<use Images/adapter_content.png>
+Package pdftex.def Info: Images/adapter_content.png used on input line 176.
+(pdftex.def)             Requested size: 227.62204pt x 170.71487pt.
+
+! Preview: Snippet 12 ended.(11187970+0x14917438).
+<-><->
+      
+l.176 \end{frame}
+                 
+Not a real error.
+
+[12 <./Images/adapter_content.png (PNG copy)>] [15
+
+
+
+] [16
+
+
+
+]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.199 \end{frame}
+                 
+Not a real error.
+
+<Images/advancingRNAseq.pdf, id=429, 845.1575pt x 597.23125pt>
+File: Images/advancingRNAseq.pdf Graphic file (type pdf)
+
+<use Images/advancingRNAseq.pdf>
+Package pdftex.def Info: Images/advancingRNAseq.pdf used on input line 199.
+(pdftex.def)             Requested size: 227.62204pt x 160.8445pt.
+
+! Preview: Snippet 13 ended.(10541105+0x14917438).
+<-><->
+      
+l.199 \end{frame}
+                 
+Not a real error.
+
+[13 <./Images/advancingRNAseq.pdf>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[17
+
+
+
+
+
+
+
+]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.216 \end{frame}
+                 
+Not a real error.
+
+<Images/gtf.png, id=451, 1366.10374pt x 564.1075pt>
+File: Images/gtf.png Graphic file (type png)
+ <use Images/gtf.png>
+Package pdftex.def Info: Images/gtf.png used on input line 216.
+(pdftex.def)             Requested size: 284.52756pt x 117.4848pt.
+
+! Preview: Snippet 14 ended.(7699484+0x18646798).
+<-><->
+      
+l.216 \end{frame}
+                 
+Not a real error.
+
+[14 <./Images/gtf.png>] [18
+
+
+
+
+
+]
+! Preview: Snippet 15 started.
+<-><->
+      
+l.229 \end{frame}
+                 
+Not a real error.
+
+<Images/SplicedReads.png, id=464, 700.6175pt x 413.545pt>
+File: Images/SplicedReads.png Graphic file (type png)
+
+<use Images/SplicedReads.png>
+Package pdftex.def Info: Images/SplicedReads.png used on input line 229.
+(pdftex.def)             Requested size: 284.52756pt x 167.94543pt.
+
+! Preview: Snippet 15 ended.(11006472+0x18646798).
+<-><->
+      
+l.229 \end{frame}
+                 
+Not a real error.
+
+[15 <./Images/SplicedReads.png>] [19
+
+
+
+]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.240 \end{frame}
+                 
+Not a real error.
+
+<Images/read-dist.pdf, id=476, 740.7675pt x 333.245pt>
+File: Images/read-dist.pdf Graphic file (type pdf)
+
+<use Images/read-dist.pdf>
+Package pdftex.def Info: Images/read-dist.pdf used on input line 240.
+(pdftex.def)             Requested size: 284.52756pt x 127.99716pt.
+
+! Preview: Snippet 16 ended.(8388422+0x18646798).
+<-><->
+      
+l.240 \end{frame}
+                 
+Not a real error.
+
+[16 <./Images/read-dist.pdf>] [20
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 261.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 261.
+
+! Preview: Snippet 17 started.
+<-><->
+      
+l.261 \end{frame}
+                 
+Not a real error.
+
+<Images/Tuxedo.jpg, id=497, 949.5475pt x 2168.1pt>
+File: Images/Tuxedo.jpg Graphic file (type jpg)
+ <use Images/Tuxedo.jpg>
+Package pdftex.def Info: Images/Tuxedo.jpg used on input line 261.
+(pdftex.def)             Requested size: 79.6678pt x 181.88757pt.
+
+! Preview: Snippet 17 ended.(11920184+0x5221109).
+<-><->
+      
+l.261 \end{frame}
+                 
+Not a real error.
+
+[17 <./Images/Tuxedo.jpg>] [21
+
+
+
+] [22
+
+
+
+]
+! Preview: Snippet 18 started.
+<-><->
+      
+l.283 \end{frame}
+                 
+Not a real error.
+
+File: Images/read-dist.pdf Graphic file (type pdf)
+<use Images/read-dist.pdf>
+Package pdftex.def Info: Images/read-dist.pdf used on input line 283.
+(pdftex.def)             Requested size: 227.62204pt x 102.39467pt.
+
+! Preview: Snippet 18 ended.(6710537+0x14917438).
+<-><->
+      
+l.283 \end{frame}
+                 
+Not a real error.
+
+[18] [23
+
+
+
+]
+! Preview: Snippet 19 started.
+<-><->
+      
+l.291 \end{frame}
+                 
+Not a real error.
+
+<Images/junction.png, id=526, 698.61pt x 320.6379pt>
+File: Images/junction.png Graphic file (type png)
+ <use Images/junction.png>
+Package pdftex.def Info: Images/junction.png used on input line 291.
+(pdftex.def)             Requested size: 227.62204pt x 104.47028pt.
+
+! Preview: Snippet 19 ended.(6846564+0x14917438).
+<-><->
+      
+l.291 \end{frame}
+                 
+Not a real error.
+
+[19 <./Images/junction.png (PNG copy)>] [24
+
+
+
+]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.297 \end{frame}
+                 
+Not a real error.
+
+<Images/Cufflinks-rec.pdf, id=538, 457.71pt x 435.6275pt>
+File: Images/Cufflinks-rec.pdf Graphic file (type pdf)
+
+<use Images/Cufflinks-rec.pdf>
+Package pdftex.def Info: Images/Cufflinks-rec.pdf used on input line 297.
+(pdftex.def)             Requested size: 199.16928pt x 189.55626pt.
+
+! Preview: Snippet 20 ended.(12422759+0x13052758).
+<-><->
+      
+l.297 \end{frame}
+                 
+Not a real error.
+
+[20 <./Images/Cufflinks-rec.pdf>] [25
+
+
+
+] [26
+
+
+
+]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.321 \end{frame}
+                 
+Not a real error.
+
+<Images/Expression1.png, id=569, 889.3225pt x 543.02875pt>
+File: Images/Expression1.png Graphic file (type png)
+
+<use Images/Expression1.png>
+Package pdftex.def Info: Images/Expression1.png used on input line 321.
+(pdftex.def)             Requested size: 256.0748pt x 156.3557pt.
+
+! Preview: Snippet 21 ended.(10246927+0x16782118).
+<-><->
+      
+l.321 \end{frame}
+                 
+Not a real error.
+
+[21 <./Images/Expression1.png>] [27
+
+
+
+
+
+]
+! Preview: Snippet 22 started.
+<-><->
+      
+l.328 \end{frame}
+                 
+Not a real error.
+
+<Images/Expression2.png, id=582, 889.3225pt x 543.02875pt>
+File: Images/Expression2.png Graphic file (type png)
+
+<use Images/Expression2.png>
+Package pdftex.def Info: Images/Expression2.png used on input line 328.
+(pdftex.def)             Requested size: 256.0748pt x 156.3557pt.
+
+! Preview: Snippet 22 ended.(10246927+0x16782118).
+<-><->
+      
+l.328 \end{frame}
+                 
+Not a real error.
+
+[22 <./Images/Expression2.png>] [28
+
+
+
+]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.335 \end{frame}
+                 
+Not a real error.
+
+<Images/HTseq.png, id=596, 710.655pt x 619.31375pt>
+File: Images/HTseq.png Graphic file (type png)
+ <use Images/HTseq.png>
+Package pdftex.def Info: Images/HTseq.png used on input line 335.
+(pdftex.def)             Requested size: 199.16928pt x 173.5673pt.
+
+! Preview: Snippet 23 ended.(11374907+0x13052758).
+<-><->
+      
+l.335 \end{frame}
+                 
+Not a real error.
+
+[23 <./Images/HTseq.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[29
+
+
+
+] [30
+
+
+
+]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.354 \end{frame}
+                 
+Not a real error.
+
+<Images/BalancedBlock.jpg, id=615, 1284.8pt x 1000.73875pt>
+File: Images/BalancedBlock.jpg Graphic file (type jpg)
+
+<use Images/BalancedBlock.jpg>
+Package pdftex.def Info: Images/BalancedBlock.jpg used on input line 354.
+(pdftex.def)             Requested size: 256.0748pt x 199.45705pt.
+
+! Preview: Snippet 24 ended.(13071617+0x16782118).
+<-><->
+      
+l.354 \end{frame}
+                 
+Not a real error.
+
+[24 <./Images/BalancedBlock.jpg>] [31
+
+
+
+]
+! Preview: Snippet 25 started.
+<-><->
+      
+l.369 \end{frame}
+                 
+Not a real error.
+
+<Images/FC.pdf, id=627, 611.28375pt x 128.48pt>
+File: Images/FC.pdf Graphic file (type pdf)
+ <use Images/FC.pdf>
+Package pdftex.def Info: Images/FC.pdf used on input line 369.
+(pdftex.def)             Requested size: 199.16928pt x 41.86136pt.
+
+! Preview: Snippet 25 ended.(2743426+0x13052758).
+<-><->
+      
+l.369 \end{frame}
+                 
+Not a real error.
+
+[25 <./Images/FC.pdf>] [32
+
+
+
+]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.376 \end{frame}
+                 
+Not a real error.
+
+File: Images/advancingRNAseq.pdf Graphic file (type pdf)
+<use Images/advancingRNAseq.pdf>
+Package pdftex.def Info: Images/advancingRNAseq.pdf used on input line 376.
+(pdftex.def)             Requested size: 227.62204pt x 160.8445pt.
+
+! Preview: Snippet 26 ended.(10541105+0x14917438).
+<-><->
+      
+l.376 \end{frame}
+                 
+Not a real error.
+
+[26]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376 \end{frame}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[33
+
+
+
+] [34
+
+
+
+
+
+] [35
+
+
+
+]
+! Preview: Snippet 27 started.
+<-><->
+      
+l.413 \end{frame}
+                 
+Not a real error.
+
+<Images/denovo.pdf, id=685, 367.3725pt x 433.62pt>
+File: Images/denovo.pdf Graphic file (type pdf)
+ <use Images/denovo.pdf>
+Package pdftex.def Info: Images/denovo.pdf used on input line 413.
+(pdftex.def)             Requested size: 284.52756pt x 335.86015pt.
+
+! Preview: Snippet 27 ended.(22010931+0x18646798).
+<-><->
+      
+l.413 \end{frame}
+                 
+Not a real error.
+
+[27 <./Images/denovo.pdf>] [36
+
+
+
+]
+! Preview: Snippet 28 started.
+<-><->
+      
+l.419 \end{frame}
+                 
+Not a real error.
+
+<Images/Trinity.png, id=709, 649.42625pt x 623.32875pt>
+File: Images/Trinity.png Graphic file (type png)
+
+<use Images/Trinity.png>
+Package pdftex.def Info: Images/Trinity.png used on input line 419.
+(pdftex.def)             Requested size: 199.16928pt x 191.16597pt.
+
+! Preview: Snippet 28 ended.(12528253+0x13052758).
+<-><->
+      
+l.419 \end{frame}
+                 
+Not a real error.
+
+[28 <./Images/Trinity.png>] [37
+
+
+
+] [38
+
+
+
+] [39
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 449.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 449.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 449.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 449.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 449.
+ ) 
+Here is how much of TeX's memory you used:
+ 1605 strings out of 477054
+ 31723 string characters out of 5831356
+ 406560 words of memory out of 5000000
+ 20562 multiletter control sequences out of 15000+600000
+ 35782 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,17n,54p,190b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on _region_.pdf (67 pages, 2834410 bytes).
+PDF statistics:
+ 766 PDF objects out of 1000 (max. 8388607)
+ 557 compressed objects within 6 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+

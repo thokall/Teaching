@@ -1,0 +1,153 @@
+#+TITLE: RNA sequence analysis with reference genome
+#+AUTHOR: Thomas Källman
+#+DATE: September, 2016
+#+PROPERTY: header-args:R  :session RNAseq-org-R
+#+PROPERTY: header-args:R+ :results output
+#+PROPERTY: header-args:R+ :exports results
+#+PROPERTY: header-args:R+ :cache no
+#+PROPERTY: tangle yes
+
+* Introductionoo and data description
+
+* Uppmax
+
+Also remember that this need to be done on the node where you want to
+do the analysis if you already have an active reservation you have to
+ssh to your reserved node. If you are unsure weather you have already
+made a reservation you can look for all the jobs your user is
+currently running with the following command (remember to change
+username to your own uppmax username).
+
+#+BEGIN_SRC sh :export code :eval no
+jobinfo -u username
+#+END_SRC
+
+In the list of active jobs you can see the name of the compute node
+that your reservation is associated with. Usually they are named M1,
+M2. Once you hav the name you can use the following command to go to
+that node. 
+
+#+BEGIN_SRC sh :export code :eval no
+ssh M1
+#+END_SRC
+
+If you do not have any job running, you need to ask for a new job using
+the course reservation. 
+
+#+BEGIN_SRC sh :export code :eval no
+salloc -A g2016001 -t 08:00:00 -p core -n 8 --no-shell --reservation=g2016008_4 &
+#+END_SRC
+
+Please make sure that you do not have multiple jobs running at once as
+that means that other course members will not be able to get access to
+compute nodes. 
+
+* Preparation for the analysis
+
+At this time point you should be logged in to your compute node and
+ready to start the analysis. If you are unsure weather you are really
+at the compute node you can check the shell prompt that you
+terminal is displaying. If it says username$milou1 or
+username$milou2 your are still on the login node so make sure that it
+instead says something like username$m1.
+
+Before we start the analysis we will set up a suitable folder
+structure for our data and results. This facilitates analysis and
+makes it easy to trace what has been done and locate files of
+interest.  How one best structure this differs from person to person,
+but there are common patterns that most people tend to follow.
+
+First of all one start at a place that have enough space to hold your
+data and analysis and decide on a folder, where one decides to store
+the data. For this class we suggest you create a folder for the raw
+reads. One folder for the results of mapping, one for genome sequence
+and annotations and finally one for the Expression analysis.
+
+Go to the place where you want to store you data and analysis and
+create four folders with the following commands:
+
+#+BEGIN_SRC sh: export code :eval no
+mkdir Reads
+mkdir Bams
+mkdir Expression
+mkdir Reference
+#+END_SRC
+
+The final step before we start analysing data is to collect the files
+needed for analysis. If you are at the main project folder the
+following commands will create copies of the files needed for the
+analysis to your workspace.
+
+#+BEGIN_SRC sh :export code :eval no
+cp path_to_reads/* Reads/
+cp path_to_refs/* Reference/
+#+END_SRC
+
+If you have managed to go through these steps you should now have the
+following structure of files and folder in your current work directory
+
+#+begin_src ditaa :file ditaa-seqboxes.png
+
+   +------------------------------------------------------------------------+   
+   | {s}                                                                    |  
+   |                                 Project folder                         |				   
+   |                                                                        |
+   +------------------------------------------------------------------------+
+         |              |             |                |               |
+         |              |             |                |               |
+   +------------+ +------------+ +-------------+ +-------------+ +-------------+  
+   |{s}         | |{s}         | |{s}          | |{s}          | |{s}          |
+   |  Reads     | | Reference  | |     QC      | | Mapres      | | Expressio   |
+   +------------+ +------------+ +-------------+ +-------------+ +-------------+
+       |                |        
+       |                |
+   +-------+      +----------------+
+   |       |      |                |
+   | Fastq |      | Fasta and GTF  |
+   | files |      | files          |
+   +-------+      +----------------+
+
+
+
+#+end_src
+
+#+RESULTS:
+[[file:ditaa-seqboxes.png]]
+
+The folders QC, Mapres and Expression should at this time point be empty
+and this is where we will store the results of our analysis.
+
+* RNA-seq analysis with reference genome
+
+In this analysis we will do a quality control of our short read, map
+reads to a reference genome, count reads that map to known genes and
+finally look at differential gene expression between the different
+treatments. All the tools needed for analysis of this data set are available as
+modules on uppmax and hence need to be loaded to be used. Just as earlier
+this week modules are loaded with commands like this one:
+
+#+BEGIN_SRC bash :exports code :eval no
+module load bioinfo-tools
+module load FastQC/0.11.5
+#+END_SRC
+
+** QC of raw data
+The first quality control we do is to look at the sequence quality and
+content directly at the fastq files. We do this using a program called
+FastQC.  If you have the module loaded the following command will
+start the analysis on one of your files.
+
+#+BEGIN_SRC sh :export code :eval no
+fastqc -i 
+
+#+END_SRC
+
+Note that it accepts input of multiple files, to see which switches
+the program accepts one can display list of options.
+
+#+BEGIN_SRC sh :export code :eval no
+
+
+#+END_SRC
+
+** Mapping short reads to reference genome
